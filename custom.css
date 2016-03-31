@@ -2,93 +2,125 @@
    Author's custom styles
    ========================================================================== */
 
-    /* general */
-    body {
-        background: #000;
-        font-family: "Caviar", Helvetica, Arial, sans-serif;
-    }
-    .container {
-        background: white;
-        max-width: 600px;
-        margin: auto;
-    }
-    nav ul {
-        margin: 0;
-        padding: 0;
-    }
-    nav li {
-        display: block;
-    }
-    nav li a {
-        display: block;
-        text-decoration: none;
-    }
+/*
+ * Colors
+ *
+ * http://www.colourlovers.com/palette/3751456/all_time_adored
+ *
+ * Wonderwall: 235,217,155
+ * Umbra: 138,126,102
+ * Deeeep: 107,123,123
+ * Terra cotta tile: 149,85,50
+ * Cacaca: 196,163,128
+ *
+ */
 
-    /* navigation */
-    .navi li a {
-        background: #222;
-        border-bottom: 1px solid #666;
-        padding-left: 10px;
-        color: #ccc;
-        font-size: 1.2em;
-        line-height: 2.8;
-    }
-    .navi li a:hover {
-        background: #000;
-    }
-    .navi li li > a {
-        padding-left: 20px;
-    }
-    .navi li li li > a {
-        padding-left: 30px;
-    }
-    .navi > ul > li:last-child a {
-        border-bottom: 0;
-    }
+/* general */
+body {
+    background: #000;
+    font-family: "Caviar", Helvetica, Arial, sans-serif;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+.container {
+    background: white;
+    max-width: 600px;
+    margin: auto;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: block;
+}
+nav li a {
+    display: block;
+    text-decoration: none;
+}
 
-    /* header */
-    .header {
-        height: 60px;
-        padding: 10px;
-        background: #222;
-        border-bottom: 100px solid #822;
-        color: #ccc;
-    }
-    .logo {
-        font-size: 1.8em;
-        line-height: 1.5;
-        margin: 0;
-    }
-    .claim {
-        color: #fff;
-        font-size: 1em;
-        line-height: 1;
-        font-weight: normal;
-        margin: 0;
-        margin-top: -0.2em;
-        margin-bottom: 0.2em;
-    }
+/* navigation */
+.navi li a {
+    background: #222;
+    border-bottom: 1px solid #666;
+    padding-left: 10px;
+    color: #ccc;
+    font-size: 1.2em;
+    line-height: 2.8;
+    color: rgb(138,126,102);
+}
+.navi li a:hover {
+    background: #111;
+    color: rgb(196,163,128);
+}
+.navi li li > a {
+    padding-left: 20px;
+}
+.navi li li li > a {
+    padding-left: 30px;
+}
+.navi > ul > li:last-child a {
+    border-bottom: 0;
+}
 
-    /* main */
-    .main {
-        padding: 10px;
-        font-family: "Garamond", Times, Serif;
-    }
+/* header */
+.header {
+    background: #222;
+    border-bottom: 100px solid rgb(149,85,50);
+}
+.header-link {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+.header-link:hover {
+    background: #444;
+}
+.header-link:hover .logo {
+    color: rgb(196,163,128);
+}
+.logo {
+    color: rgb(107,123,123);
+    font-size: 1.8em;
+    line-height: 1.5;
+    letter-spacing: 0.25em;
+    margin: 0;
+    font-weight: 900;
+}
+.claim {
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    line-height: 1;
+    font-weight: normal;
+    margin: 0;
+    margin-top: -0em;
+    margin-bottom: 0.2em;
+}
 
-    /* aside */
-    .aside {
-        padding: 10px;
-        margin-bottom: 90px;
-        background: #222;
-        border-top: 33px solid #822;
-        border-bottom: 100px solid #822;
-        color: #ccc;
-    }
+/* main */
+.main {
+    padding: 10px;
+    font-family: "Garamond", Times, Serif;
+}
 
-    /* footer */
-    .footer {
-        padding: 10px;
-        background: #222;
-        color: #ccc;
-        border-top: 66px solid #822;
-    }
+/* aside */
+.aside {
+    margin-top: 100px;
+    padding: 10px;
+    margin-bottom: 90px;
+    background: #222;
+    border-top: 33px solid rgb(107,123,123);
+    border-bottom: 100px solid rgb(138,126,102);
+    color: #ccc;
+}
+
+/* footer */
+.footer {
+    padding: 12px;
+    background: #222;
+    color: #ccc;
+    border-top: 66px solid rgb(149,85,50);
+    text-align: center;
+    font-style: italic;
+}
