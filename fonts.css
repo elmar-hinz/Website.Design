@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Caviar;
+    src: url('../fonts/CaviarDreams/CaviarDreams-Regular.ttf');
+}
+@font-face {
+    font-family: Caviar;
+    src: url('../fonts/CaviarDreams/CaviarDreams-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: Caviar;
+    src: url('../fonts/CaviarDreams/CaviarDreams-Italic.ttf');
+    font-style: italic;
+}
+@font-face {
+    font-family: Caviar;
+    src: url('../fonts/CaviarDreams/CaviarDreams-BoldItalic.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Garamond;
+    src: url('../fonts/EbGaramond/EBGaramond12-Regular.ttf');
+}
+@font-face {
+    font-family: Garamond;
+    src: url('../fonts/EbGaramond/EBGaramond08-Regular.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: Garamond;
+    src: url('../fonts/EbGaramond/EBGaramond12-Italic.ttf');
+    font-style: italic;
+}
+@font-face {
+    font-family: Garamond;
+    src: url('../fonts/EbGaramond/EBGaramond08-Italic.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
